@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+}
+
+p {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 32px;
+    color: #7D7987;
+}
+
+.blue-btn {
+    color: #fff;
+    background-color: #458FF6;
+    width: 200px;
+    height: 56px;
+    border-radius: 55px;
+    font-size: 14px;
+}
+
+.blue-btn:hover {
+    background-color: #fff;
+    color: #458FF6;
+    border: 1px solid #458FF6;
+}
+
+.white-btn {
+    color: #458FF6;
+    background-color: #fff;
+    width: 200px;
+    height: 56px;
+    border-radius: 55px;
+    font-size: 14px;
+    border: 1px solid #458FF6;
+}
+
+.white-btn:hover {
+    background-color: #458FF6;
+    color: #fff;
+}
+
+.vect {
+    position: absolute;
+    display: block;
+    top: 160px;
+    left: -10px;
+    opacity: 0.3;
+}
+
+.our-services {
+    text-align: center;
+}
+
+.our-services .s-text {
+    max-width: 80%;
+    margin: 40px auto;
+}
+
+.divider {
+    width: 56px;
+    height: 2px;
+    background-color: #000;
+    text-align: center;
+    margin: 20px auto;
+    border-radius: 5px;
+}
