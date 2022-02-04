@@ -274,3 +274,11 @@ a {
 .icon-image-a {
     width: 6%;
 }
+
+.footer {
+    min-height: 432px;
+    margin-top: 100px;
+    background-image: linear-gradient(to bottom left, #67C3F3, #5A98F2);
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
