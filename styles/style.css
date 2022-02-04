@@ -3,6 +3,7 @@
 * {
     padding: 0;
     margin: 0;
+    max-width: 100%;
     list-style: none;
     box-sizing: border-box;
     font-family: 'Mulish', sans-serif;
@@ -24,11 +25,33 @@ h2 {
     line-height: 56px;
 }
 
+h3 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 56px;
+}
+
+h6 {
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 32px;
+}
+
 p {
     font-weight: 300;
     font-size: 18px;
     line-height: 32px;
     color: #7D7987;
+}
+
+a {
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.row {
+    margin-left: 0!important;
 }
 
 .blue-btn {
@@ -205,4 +228,32 @@ p {
 .carousel-control-prev {
     position: absolute;
     width: 45%;
+}
+
+.our-articles {
+    margin-top: 150px !important;
+}
+
+.a-box {
+    min-height: 512px; 
+    width: 350px;
+    background-color: #fff;
+    webkit-box-shadow: 10px 10px 70px 0 rgba(229,233,246, 0.8) !important;
+	-moz-box-shadow: 10px 10px 70px 0 rgba(229,233,246, 0.8) !important;
+    box-shadow: 10px 10px 70px 0 rgba(229,233,246, 0.8);
+    text-align: left;
+}
+
+.a-box img {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+}
+
+.txt-h {
+    line-height: 32px;
+}
+
+.icon-image-a {
+    width: 6%;
 }
