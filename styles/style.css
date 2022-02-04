@@ -130,6 +130,22 @@ a {
     opacity: 0.6;
 }
 
+.vect-6 {
+    position: absolute;
+    top: 190px;
+    left: -20px;
+    opacity: 0.6;
+    z-index: -1;
+}
+
+.vect-7 {
+    position: absolute;
+    left: 731.05px;
+    top: 200px;
+    opacity: 0.6;
+    z-index: -1;
+}
+
 .our-services {
     text-align: center;
 }
@@ -231,6 +247,7 @@ a {
 }
 
 .our-articles {
+    position: relative;
     margin-top: 150px !important;
 }
 
