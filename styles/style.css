@@ -140,7 +140,7 @@ a {
 
 .vect-7 {
     position: absolute;
-    left: 731.05px;
+    right: 0px;
     top: 200px;
     opacity: 0.6;
     z-index: -1;
@@ -289,4 +289,19 @@ a {
     background-image: linear-gradient(to bottom left, #67C3F3, #5A98F2);
     overflow-x: hidden;
     overflow-y: hidden;
+}
+
+.title-text {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 60px;
+}
+
+ul {
+    padding-left: 0;
+}
+
+.f_links a {
+    margin-left: 0;
+    line-height: 38px;
 }
