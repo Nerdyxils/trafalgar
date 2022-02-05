@@ -128,6 +128,7 @@ a {
     top: 3500px;
     left: 10px;
     opacity: 0.6;
+    z-index: -1;
 }
 
 .vect-6 {
@@ -148,7 +149,7 @@ a {
 
 .vect-8 {
     position: absolute;
-    right: 50px;
+    right: 0px;
     top: 4846px;
     opacity: 0.6;
     z-index: -1;
@@ -304,4 +305,37 @@ ul {
 .f_links a {
     margin-left: 0;
     line-height: 38px;
+}
+
+/* animation effect */
+
+.hvr-grow {
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.3s;
+    transition-property: transform;
+}
+
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+    transform: scale(1.1);
+}
+
+@media (max-width: 500px) {
+    .vect-1 {
+        top: 1795px;
+        left: -20.42px;
+        opacity: 0.6;
+        z-index: -1;
+    }
+
+    .vect-7 {
+        top: 400px;
+        opacity: 0.6;
+        z-index: -1;
+    }
 }
