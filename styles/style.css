@@ -146,6 +146,14 @@ a {
     z-index: -1;
 }
 
+.vect-8 {
+    position: absolute;
+    right: 50px;
+    top: 4846px;
+    opacity: 0.6;
+    z-index: -1;
+}
+
 .our-services {
     text-align: center;
 }
